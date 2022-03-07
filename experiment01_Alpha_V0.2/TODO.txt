@@ -1,0 +1,3 @@
+
+- understand which elements of the App class make up the top interface
+    by running the code I can see that are prevalently the shapes

@@ -1,0 +1,115 @@
+/* VARIABLE DEFINITIONS: Only these 4 variables have to be adjusted, the rest is copy-paste */
+
+* {
+    -fx-my-menu-color: #F472B6;                        /* Change according to your needs */
+    -fx-my-menu-font-color: #FFFFFF;                /* Change according to your needs */
+    -fx-my-menu-font-color-highlighted: #FFFFFF;    /* Change according to your needs */
+}
+
+#background{
+    -fx-background-color: #0F172A;
+}
+
+#commands{
+    -fx-text-fill: #fff;
+    -fx-opacity: 0.25;
+}
+
+#top-settings{
+    -fx-background-radius: 25px;
+    -fx-border-width: 5px;
+}
+
+#top-settings-background{
+    -fx-pref-height: 250px;
+    -fx-pref-width: 900px;
+    -fx-background-color: grey;
+    -fx-background-radius: 25px;
+    -fx-opacity: 0.7;
+}
+#recOne{
+    -fx-max-height: 130px;
+    -fx-pref-width: 130px;
+    -fx-background-color: grey;
+    -fx-background-radius: 25px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 3, 3);;
+}
+#recOne:pressed{
+    -fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0.6, 0.6);;
+}
+#inner-shape{
+    -fx-background-color: white;
+}
+#advanced-settings{
+    -fx-pref-width: 900px;
+}
+#advanced-settings-background{
+    -fx-pref-width: 900px;
+    -fx-pref-height: 900px;
+
+    -fx-background-radius: 25px;
+    -fx-background-color: grey;
+    -fx-opacity: 0.7;
+}
+
+#shapePane{
+    -fx-pref-width: 400px;
+    -fx-pref-height: 400px;
+}
+
+.label{
+    -fx-text-fill: black;
+    -fx-font-size: 1.3em;
+    -fx-translate-y: 0.7em;
+}
+.radio-button{
+    -fx-translate-y: 1em;
+}
+.combo-box-base {
+    -fx-font-size: 1.7em;
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, black;
+    -fx-background-radius: 0.5em;
+    -fx-background-insets: 0.05em;
+    -fx-text-fill: white;
+}
+.combo-box-base .arrow{
+}
+.combo-box-base .list-view{
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.combo-box-base .list-cell{
+    -fx-background-insets: 0.045em;
+    -fx-background-radius: 0.5em;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+.button{
+    -fx-font-size: 1.7em;
+    -fx-background-insets: 0.05em;
+    -fx-background-radius: 0.5em;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+.button:hover{
+    -fx-background-color:darkgrey;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+
+.slider .track{
+    -fx-background-color: black;
+}
+.slider .thumb{
+    -fx-background-radius: 0.1em;
+    -fx-border-radius: 0.3em;
+    -fx-background-color: darkgrey;
+    -fx-border-color: black;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#settings-button{
+    -fx-background-color: black;
+    -fx-background-radius: 25px;
+}
